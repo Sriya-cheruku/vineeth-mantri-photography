@@ -23,14 +23,13 @@ export default function Hero() {
         ))}
       </div>
       <div className="hero__shade" />
-      <div className="letterbox letterbox--top" />
       <div className="letterbox letterbox--bottom" />
 
       <div className="hero__content">
         <p className="eyebrow rise" style={{ animationDelay: "200ms" }}>Wedding Photography &amp; Cinematography · Hyderabad</p>
         <h1 className="rise" style={{ animationDelay: "400ms" }}>
           We don&apos;t just capture moments.<br />
-          <em>We create cinematic memories.</em>
+          <em>We turn them into memories that last a lifetime.</em>
         </h1>
         <div className="hero__cta rise" style={{ animationDelay: "700ms" }}>
           <a href="#portfolio" className="btn btn--gold">View portfolio</a>
