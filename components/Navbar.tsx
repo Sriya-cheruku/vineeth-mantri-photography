@@ -37,8 +37,8 @@ export default function Navbar() {
   return (
     <header className={`nav ${scrolled || open ? "nav--solid" : ""}`}>
       <div className="nav__inner">
-        <a href="#home" className="logo" onClick={() => setOpen(false)} aria-label="Vineeth Mantri — home">
-          <span>VINEETH</span><span className="logo__sub">MANTRI · PHOTOGRAPHY</span>
+        <a href="#home" className="logo" onClick={() => setOpen(false)} aria-label="MVK VISUALS — home">
+          <span>MVK VISUALS</span><span className="logo__sub">By Vineeth Mantri</span>
         </a>
 
         <nav className="nav__links" aria-label="Primary">
